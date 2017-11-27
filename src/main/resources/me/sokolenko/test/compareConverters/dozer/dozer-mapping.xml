@@ -18,4 +18,13 @@
       <b>name</b>
     </field>
   </mapping>
+
+  <mapping>
+    <class-a>me.sokolenko.test.compareConverters.model.target.Product</class-a>
+    <class-b>me.sokolenko.test.compareConverters.model.source.Product</class-b>
+    <field>
+      <a>parameters</a>
+      <b>attributes</b>
+    </field>
+  </mapping>
 </mappings>

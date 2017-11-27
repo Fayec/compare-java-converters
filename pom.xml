@@ -45,7 +45,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>me.sokolenko.test.compareConverters.Main</mainClass>
+                                    <mainClass>me.sokolenko.test.compareConverters.MainComparator</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -228,6 +228,11 @@
             <groupId>com.googlecode.jmapper-framework</groupId>
             <artifactId>jmapper-core</artifactId>
             <version>${jmapper.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.11</version>
         </dependency>
     </dependencies>
 
